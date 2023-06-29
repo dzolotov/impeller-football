@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "sample3d",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--local-engine-src-path",
+                "/Users/d-zolotov/g3/src",
+                "--local-engine",
+                "ios_debug_sim_unopt"
+            ]
+        }
+    ]
+}
