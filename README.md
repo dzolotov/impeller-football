@@ -35,7 +35,7 @@ solutions = [
 ninja -C out/host_debug_unopt
 ninja -C out/ios_debug_sim_unopt
 ninja -C out/ios_debug_sim_unopt_arm64
-
+```
 7. Copy experiments to sky_engine dir:
 ```
 cp flutter/lib/ui/experiments/scene.dart out/host_debug_unopt/gen/dart-pkg/sky_engine/lib/ui
@@ -43,7 +43,6 @@ cp flutter/lib/ui/experiments/gpu.dart out/host_debug_unopt/gen/dart-pkg/sky_eng
 echo "part 'gpu.dart'" >>out/host_debug_unopt/gen/dart-pkg/sky_engine/lib/ui/ui.dart
 echo "part 'scene.dart'" >>out/host_debug_unopt/gen/dart-pkg/sky_engine/lib/ui/ui.dart
 ```
-
 8. Toggle to the master channel of the Flutter Framework (`flutter channel master`)
 9. Add path to patched sky_engine to the pubspec.yaml:
 ```
